@@ -1,1 +1,7 @@
 /* Empty. Add your own CSS if you like */
+.back{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7vUSy8i3EiLxVQE8_7Pc4bAEHVzL5KdQcwZdZqMLGF1aK2oZ);
+    background-size: cover;
+    -moz-background-size: cover;  
+
+}
