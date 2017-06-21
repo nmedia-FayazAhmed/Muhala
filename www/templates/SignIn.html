@@ -1,28 +1,22 @@
 <ion-view view-title="SignIn" class="bubble-background">
-  <ion-content>
-    <div class="card">
-        <div class="item item-divider">
-            Confirm your identity
+    <ion-content class="login-page-wrapper">
+    <div class="login-page">
+        <div class="card">
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Username</span>
+                <input type="text" placeholder="Username"/>
+            </label>
+            <label class="item item-input item-floating-label">
+                <span class="input-label">Security Code</span>
+                <input type="password" placeholder="Security Code"/>
+            </label>
         </div>
-        <div class="item item-text-wrap">
-            <div class="list">
-        <label class="item item-input item-floating-label">
-            <span class="input-label">Username</span>
-            <input type="text" placeholder="Username"/>
-        </label>
-        <label class="item item-input item-floating-label">
-            <span class="input-label">Security Code</span>
-            <input type="password" placeholder="Security Code"/>
-        </label>
-        <button class="button  button-dark ion-home icon-right button-block" type="submit">
-            SignIn
-        </button>
-        
-    </div>
-        </div>
-        <div class="item card">
-            <p class="subdued">Forgot Password? Contact your Zaeem Muhala</p>
+        <div class="padding">
+            <button class="button  button-dark button-block margin-right-left" type="submit">
+                SignIn
+            </button>
+            <a href="">Forgot Password? Contact your Zaeem Muhala</a>
         </div>
     </div>
-  </ion-content>
+    </ion-content>
 </ion-view>

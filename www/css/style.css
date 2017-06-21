@@ -1,1 +1,10 @@
 /* Empty. Add your own CSS if you like */
+.login-page-wrapper {
+	background-image: url(../img/ionic.png);
+	background-repeat: none;
+	background-size: cover;
+}
+.login-page {
+	
+
+}
