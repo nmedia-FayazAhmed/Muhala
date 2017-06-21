@@ -1,4 +1,5 @@
 /* Empty. Add your own CSS if you like */
+<<<<<<< HEAD
 .login-page-wrapper {
 	background-image: url(../img/ionic.png);
 	background-repeat: none;
@@ -6,5 +7,11 @@
 }
 .login-page {
 	
+=======
+.back{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7vUSy8i3EiLxVQE8_7Pc4bAEHVzL5KdQcwZdZqMLGF1aK2oZ);
+    background-size: cover;
+    -moz-background-size: cover;  
+>>>>>>> 037b2c629d05b72fb6f4f8c4666c3043b772914c
 
 }
