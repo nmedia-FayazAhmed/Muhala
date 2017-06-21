@@ -1,17 +1,33 @@
 /* Empty. Add your own CSS if you like */
-<<<<<<< HEAD
 .login-page-wrapper {
-	background-image: url(../img/ionic.png);
+	background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQxyUbC0IbKYb0U6Tf4EcpFrbClhmAlnKmwHUNJnZQwuVHxhwQ51w);
 	background-repeat: none;
 	background-size: cover;
 }
 .login-page {
 	
-=======
-.back{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRa7vUSy8i3EiLxVQE8_7Pc4bAEHVzL5KdQcwZdZqMLGF1aK2oZ);
-    background-size: cover;
-    -moz-background-size: cover;  
->>>>>>> 037b2c629d05b72fb6f4f8c4666c3043b772914c
 
+}
+a{
+    color: white;
+}
+a:hover{
+    color: yellowgreen;
+}
+.transparent{
+    background-color: transparent;
+    box-shadow: 0 8px 5px 5px  #3b864e;
+    
+}
+.textwhite{
+    color: white!important;
+}
+input {
+    color: white!important;
+}
+.logo-image{
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+    margin-top: 80px;
 }
