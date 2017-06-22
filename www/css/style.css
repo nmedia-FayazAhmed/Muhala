@@ -1,5 +1,5 @@
 /* Empty. Add your own CSS if you like */
-.login-page-wrapper {
+.background-img {
 	background-image: url("/img/AppBackground.jpg");
 	background-repeat: none;
 	background-size: cover;
@@ -7,7 +7,9 @@
 a{
     color: white;
 }
-
+body{
+	background-image: url("/img/AppBackground.jpg");
+}
 .transparent{
     background-color: transparent;
     box-shadow: 0 2px 4px;
@@ -46,3 +48,10 @@ h2
     background-color: rgba(214, 41, 41, 0);
     box-shadow: 0 6px 7px;
     }
+.backg{
+	background-image: url("/img/AppBackground.jpg");
+}
+.home-img{
+  background-image: url("/img/h1.png");
+  height: 345px;
+}
