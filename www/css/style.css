@@ -65,3 +65,9 @@ h2
 .clr{
 	background-color: black;
 }
+textarea{
+	padding: 15px;
+}
+.Event-page{
+	margin: -24px;
+}
