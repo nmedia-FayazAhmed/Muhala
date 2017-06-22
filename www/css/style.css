@@ -16,7 +16,7 @@ a:hover{
 }
 .transparent{
     background-color: transparent;
-    box-shadow: 0 4px 1px;
+    box-shadow: 0 2px 4px;
     
 }
 .textwhite{
@@ -30,7 +30,7 @@ input {
     display: block;
     margin: 0 auto;
     margin-top: 65px;
-    width: 75px;
+    width: 180px;
 }
 h2
 {
