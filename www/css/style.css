@@ -28,7 +28,7 @@ input {
     text-align: center;
     display: block;
     margin: 0 auto;
-    margin-top: 65px;
+    margin-top: 30px;
     width: 180px;
 }
 h2
@@ -54,4 +54,14 @@ h2
 .home-img{
   background-image: url("/img/h1.png");
   height: 345px;
+}
+.radius
+{
+	border-bottom-left-radius: 100% 50%;
+}
+.main{
+	background-color: #DED5BF;
+}
+.clr{
+	background-color: black;
 }

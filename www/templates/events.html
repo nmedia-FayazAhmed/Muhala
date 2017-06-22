@@ -1,19 +1,50 @@
 <ion-view view-title="Events" >
-    <ion-content>
+    <ion-content class="background-img">
         <!--Searchbar-->
-        <div class="bar bar-header item-input-inset">
-                <label class="item-input-wrapper">
-                    <i class="icon ion-ios-search placeholder-icon"></i>
-                    <input type="search" placeholder="Search" class="input-black-text">
+        <div class="bar bar-header item-input-inset background-img" >
+                <label class="item-input-wrapper background-img">
+                    <input type="search" placeholder="Search" class="input-white-text">
                 </label>
-                <button class="button button-calm">
-                   Search
-                </button>
         </div>
         <!--Cards of Events-->
         <div class="list card" >
-            <div class="item item-avatar">
-                <img ng-src="{{Event.Logo}}" alt="Event Logo">
+            <div class="item item-avatar background-img">
+            <div class="Event-page">
+          <!--  <img src="img/mkalogo2.png" class="logo-image" alt="">-->
+                <label class="item item-input item-floating-label">
+                <span class="input-label textwhite size"> Name </span>
+                <input type="text" name="username" class="textwhite" placeholder="invitation name" />
+                </label>
+                <label class="item item-input item-floating-label ">
+                <span class="input-label textwhite" >Detail</span>
+                <input type="text" name="detail" class="textwhite" placeholder="Add your detail"/>
+                </label>
+                <label class="item item-input item-floating-label ">
+                <span class="input-label textwhite" >where</span>
+                <input type="text" name="place" class="textwhite" placeholder="place of event"/>
+                </label>
+
+                <label class="item item-input item-floating-label">
+                <span class="input-label textwhite">Date</span>
+                <input type="date" name="tarik" class="textwhite" placeholder="hcjghc"/>
+                </label>
+                <label class="item item-input item-floating-label">time
+                <input type="time" name="tieme" class="textwhite" placeholder="Add the time"/></label>
+            </div>
+            </div>  
+        </div>
+        </div>
+        <!--end Event card-->
+        <button class="button button-balanced">Going</button>
+        <button class="button button-assertive">Not Going</button>
+
+    </ion-content>
+</ion-view>
+
+
+
+
+<!-- <img ng-src="{{Event.Logo}}" alt="Event Logo">
                 <h2>{{Event.Name}}</h2>
                 <p>{{Event.Date}}</p>
             </div>
@@ -21,13 +52,3 @@
                 <img ng-src="{{Event.image}}" class="full-image" alt="Event Image">
                 <p>{{Event.Message}}</p>
                 <p>
-                    <button class="button button-balanced">Going</button>
-                    <button class="button button-assertive">Not Going</button>
-                </p>
-            </div>
-        
-        </div>
-        <!--end Event card-->
-
-    </ion-content>
-</ion-view>
