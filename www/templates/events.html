@@ -1,0 +1,33 @@
+<ion-view view-title="Events" >
+    <ion-content>
+        <!--Searchbar-->
+        <div class="bar bar-header item-input-inset">
+                <label class="item-input-wrapper">
+                    <i class="icon ion-ios-search placeholder-icon"></i>
+                    <input type="search" placeholder="Search" class="input-black-text">
+                </label>
+                <button class="button button-clear">
+                   Search
+                </button>
+        </div>
+        <!--Cards of Events-->
+        <div class="list card" >
+            <div class="item item-avatar">
+                <img ng-src="{{Event.Logo}}" alt="Event Logo">
+                <h2>{{Event.Name}}</h2>
+                <p>{{Event.Date}}</p>
+            </div>
+            <div class="item item-body">
+                <img ng-src="{{Event.image}}" class="full-image" alt="Event Image">
+                <p>{{Event.Message}}</p>
+                <p>
+                    <button class="button button-balanced">Going</button>
+                    <button class="button button-assertive">Not Going</button>
+                </p>
+            </div>
+        
+        </div>
+        <!--end Event card-->
+
+    </ion-content>
+</ion-view>

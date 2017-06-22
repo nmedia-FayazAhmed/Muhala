@@ -4,16 +4,10 @@
 	background-repeat: none;
 	background-size: cover;
 }
-.login-page {
-	
-
-}
 a{
     color: white;
 }
-a:hover{
-    color: yellowgreen;
-}
+
 .transparent{
     background-color: transparent;
     box-shadow: 0 2px 4px;
@@ -24,6 +18,9 @@ a:hover{
 }
 input {
     color: white!important;
+}
+.input-black-text{
+    color: black!important;
 }
 .logo-image {
     text-align: center;
