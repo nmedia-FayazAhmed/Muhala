@@ -1,0 +1,15 @@
+<ion-view view-title="Namaz Time">
+    <ion-content>
+        <!--NamazTiming-->
+        <div class="list">
+            <a class="item" href="" ng-repeat="NamazTimingController as NamazController">
+                <i>{{NamazController.name}}</i>
+                <span class="item-note">{{NamazController.time}}</span>
+            </a>
+        </div>
+        <!--Footer-->
+        <div class="bar bar-footer bar-balanced">
+            <div class="title">Thank You</div>
+        </div>
+    </ion-content>
+</ion-view>

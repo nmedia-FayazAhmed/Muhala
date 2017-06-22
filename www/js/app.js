@@ -40,6 +40,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+   .state('app.namazTime', {
+    url: '/namazTime',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/namazTime.html'
+      }
+    }
+  })
   .state('app.events', {
     url: '/events',
     views: {
