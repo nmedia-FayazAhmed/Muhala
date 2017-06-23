@@ -7,6 +7,9 @@
 a{
     color: white;
 }
+.button-inline-display{
+    display: inline-block;
+}
 body{
 	background-image: url("/img/AppBackground.jpg");
 }
