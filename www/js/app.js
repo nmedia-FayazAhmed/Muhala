@@ -41,6 +41,14 @@ angular.module('starter', ['ionic', 'starter.controllers'])
       }
     }
   })
+    .state('app.userUser', {
+    url: '/newUser',
+    views: {
+      'menuContent': {
+        templateUrl: 'templates/newUser.html'
+      }
+    }
+  })
    .state('app.namazTime', {
     url: '/namazTime',
     views: {
